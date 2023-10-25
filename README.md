@@ -10,8 +10,11 @@ API RESTful de cadastro de alunos e de suas notas semestrais.
 
 ## Stack utilizada
 
-**Back-end:** Java 17.0 LTS, Spring Boot 3
+Java 17.0 LTS, Spring Boot 3, Maven, PostgreSQL, Insomnia e Render (deploy).
 
+## Deploy
+
+https://students-gen.onrender.com/swagger-ui/index.html#/
 
 ## Documentação da API
 
@@ -30,7 +33,7 @@ API RESTful de cadastro de alunos e de suas notas semestrais.
 
 | Parâmetro   | Tipo       | Descrição                           |
 | :---------- | :--------- | :---------------------------------- |
-| `idStudent` | `UUID` | **Obrigatório**. É a chave de cada aluno cadastrado. |
+| `idStudent` | `id` | **Obrigatório**. É a chave de cada aluno cadastrado. |
 
 #### Cadastra um aluno
 
@@ -69,7 +72,7 @@ API RESTful de cadastro de alunos e de suas notas semestrais.
 ```
 | Parâmetro   | Tipo       | Descrição                           |
 | :---------- | :--------- | :---------------------------------- |
-| `idStudent` | `UUID` | **Obrigatório**. É a chave de cada aluno cadastrado. |
+| `idStudent` | `id` | **Obrigatório**. É a chave de cada aluno cadastrado. |
 
 #### Remove o cadastro de um aluno
 
@@ -79,6 +82,6 @@ API RESTful de cadastro de alunos e de suas notas semestrais.
 ```
 | Parâmetro   | Tipo       | Descrição                           |
 | :---------- | :--------- | :---------------------------------- |
-| `idStudent` | `UUID` | **Obrigatório**. É a chave de cada aluno cadastrado. |
+| `idStudent` | `id` | **Obrigatório**. É a chave de cada aluno cadastrado. |
 
 
